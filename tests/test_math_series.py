@@ -48,3 +48,18 @@ def test3_lucas():
     actual = lucas(2)
     expected = 5
     assert actual == expected
+
+def test1_sum_series():
+    actual = sum_series(0)
+    expected = 0
+    assert actual == expected
+
+def test2_sum_series():
+    actual = sum_series(0,0)
+    expected = 0
+    assert actual == expected
+
+def test3_sum_series():
+    actual = sum_series(0,0,1)
+    expected = 0
+    assert actual == expected
